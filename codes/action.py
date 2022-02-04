@@ -5,7 +5,7 @@ from multi_newton import multi_newton
 import numpy as np
 
 def params():
-    nvar = 99; m = 1.
+    nvar = 69; m = 1.
     xini, xfin = 2., 0.
     tt = 1.; dt = tt/(nvar+1)
     return nvar, m, xini, xfin, dt
